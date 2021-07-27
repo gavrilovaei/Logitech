@@ -68,8 +68,8 @@ body {
 }
 
 .top__svg {
-   width: 42px;
-   height: 22px;
+   width: 40px;
+   height: 20px;
 }
 
 .bluetooth {
@@ -330,6 +330,7 @@ body {
       margin-top: 160px;
       height: 514px;
       margin-bottom: 124px;
+      background-size: cover;
    }
 
    .heading {
@@ -356,4 +357,32 @@ body {
    .top__arrow {
       margin-top: 76px;
    }
+
+   .top__svg {
+      width: 57px;
+      height: 29px;
+   }
+
+   .bluetooth {
+      padding-top: 80px;
+      padding-bottom: 0px;
+   }
+
+   .bluetooth__icon {
+      margin-bottom: 39px;
+   }
+
+   .bluetooth__heading {
+      font-size: 150px;
+      line-height: 176px;
+      margin-top: 76px;
+   }
+
+   .bluetooth__img {
+      height: 597px;
+      margin-left: 39px;
+      margin-right: 19px;         
+   }
+
+
 }
