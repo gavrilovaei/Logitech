@@ -189,7 +189,7 @@ body {
 }
 
 .carousel-indicators {
-   bottom: -110px;
+   bottom: -123px;
    justify-content: space-around;
 }
 
@@ -418,8 +418,7 @@ body {
 
    .carousel-control-next,
    .carousel-control-prev {
-      top: 118%;
-     
+     bottom: 166px;     
    }
 
    .carousel-control-next {
@@ -437,7 +436,7 @@ body {
    }
 
    .carousel-indicators {
-      top: 115%;
+      bottom: -166px;
       left: 138px;
       right: 138px;
    }
@@ -460,13 +459,13 @@ body {
    .flow__text {
       flex-grow: 4;
       font-size: 20px;
-      line-height: 23px;
-      padding-left: 27px;
-      padding-right: 14px;
+      line-height: 23px;      
+      padding-left: 25px;
+      padding-right: 20px;
       border-left:  1px solid #494949;
    }
 
-   .flow__text:first-child {
+   .flow__text:first-child {      
       padding-left: 0;
       padding-right: 5px;
       border-left: none;
@@ -475,6 +474,7 @@ body {
 
    .flow__text:last-child {
       padding-left: 22px;
+      padding-right: 0px;
       width: 135px;
       flex-grow: 1;
    }
