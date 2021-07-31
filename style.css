@@ -45,12 +45,13 @@ body {
 .top__text-margin {
    margin-left: 59px;
    margin-right: 59px;
+   padding-top: 8px;
 }
 
 .top {
    background: #E0E1E2;
    padding-top: 25px;
-   padding-bottom: 48px;
+   padding-bottom: 46px;
 }
 
 .top__img {
@@ -64,7 +65,7 @@ body {
 }
 
 .top__arrow {
-   margin-top: 42px;
+   margin-top: 36px;
 }
 
 .top__svg {
@@ -91,14 +92,16 @@ body {
    text-transform: uppercase;
    color: #C4C4C4;
    margin-top: 31px;
+   margin-bottom: 0;
 }
 
 .bluetooth__img {
-   height: 288px;
-   background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center bottom;
+   height: 288px;  
+}
+
+.bluetooth__img_mouse {
+  width: 100%;
+  
 }
 
 .info {
@@ -208,9 +211,9 @@ body {
    padding-top: 70px;
    padding-bottom: 198px;
    background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.jpg);
-   background-size: contain;
+   background-size: 117%;
    background-repeat: no-repeat;
-   background-position: bottom;
+   background-position: center bottom;
    background-color: #EDEDED;
 }
 
