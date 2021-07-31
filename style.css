@@ -549,4 +549,12 @@ body {
       margin-right: 71px;
    }
 
+   .mouse__img {
+      height: 549px;          
+   }
+
+   .mouse__text {     
+      padding-bottom: 50px;
+  }
+
 }
