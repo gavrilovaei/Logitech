@@ -346,6 +346,7 @@ body {
    .top__text-margin {
       margin-left: 154px;
       margin-right: 155px;
+      padding-top: 0;
    }
 
    .top__arrow {
@@ -371,6 +372,7 @@ body {
       line-height: 176px;
       margin-top: 76px;
       padding-right: 22px;
+      margin-bottom: -66px;
    }
 
    .bluetooth__img {
