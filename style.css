@@ -367,6 +367,7 @@ body {
       font-size: 150px;
       line-height: 176px;
       margin-top: 76px;
+      padding-right: 22px;
    }
 
    .bluetooth__img {
@@ -550,11 +551,18 @@ body {
    }
 
    .mouse__img {
-      height: 549px;          
+      height: 549px;
    }
 
-   .mouse__text {     
+   .mouse__text {
       padding-bottom: 50px;
-  }
+   }
+
+   .footer {
+      padding-top: 47px;
+      padding-bottom: 71px;
+      font-size: 14px;
+      line-height: 16px;
+   }
 
 }
