@@ -96,12 +96,11 @@ body {
 }
 
 .bluetooth__img {
-   height: 288px;  
-}
-
-.bluetooth__img_mouse {
-  width: 100%;
-  
+   height: 288px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 31px;
 }
 
 .info {
@@ -192,7 +191,7 @@ body {
 }
 
 .carousel-indicators {
-   bottom: -123px;
+   bottom: -120px;
    justify-content: space-around;
 }
 
@@ -252,18 +251,20 @@ body {
 
 .settings .carousel-indicators {
    top: 415px;
-   margin-right: 24%;
-   margin-left: 24%;
+   margin-right: 23%;
+   margin-left: 23%;
 }
 
 .settings .w-100 {
    height: 405px;
+   width: auto!important;
+   margin: 0 auto;
 }
 
 .settings__content {
    background-color: #C4C4C4;
    padding-top: 23px;
-   padding-bottom: 26px;
+   padding-bottom: 25px;
 }
 
 .settings__icon {
