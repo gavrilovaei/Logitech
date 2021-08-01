@@ -211,17 +211,13 @@ body {
 }
 
 .flow {
-   padding-top: 70px;
-   padding-bottom: 198px;
-   background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1_mob.png);
-   background-size: 117%;
-   background-repeat: no-repeat;
-   background-position: center bottom;
+   padding-top: 70px;  
    background-color: #EDEDED;
 }
 
 .flow__ol {
    margin-top: 36px;
+     
    padding-left: 54px;
    list-style-position: inside;
 }
@@ -235,6 +231,10 @@ body {
 
 .flow__p {
    margin-bottom: 15px;
+}
+
+.flow__img {
+   width: 100%;
 }
 
 .settings {
@@ -369,7 +369,7 @@ body {
    }
 
    .bluetooth__icon {
-      margin-bottom: 39px;
+      margin-bottom: 43px;
    }
 
    .bluetooth__heading {
@@ -381,13 +381,13 @@ body {
    }
 
    .bluetooth__img {
-      height: 597px;
+      height: 593px;
       margin-left: 39px;
       margin-right: 19px;
    }
 
    .bluetooth__img_mouse {
-      width: 100%;
+      width: 850px;
    }
 
    .info {
@@ -417,12 +417,12 @@ body {
    }
 
    .carousel {
-      margin-bottom: 50px;
+      margin-bottom: 48px;
    }
 
    .info__text {
-      margin-left: 77px;
-      margin-right: 77px;
+      margin-left: 90px;
+      margin-right: 90px;
    }
 
    .info__text_margin {
@@ -456,20 +456,18 @@ body {
       right: 138px;
    }
 
-   .flow {
-      background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1-tablet.png);
-      padding-bottom: 465px;
-      background-size: contain;
-      padding-left: 67px;
-      padding-right: 68px;
+   .flow__heading_tablet {
+      margin-left: 129px;
+      margin-right: 129px;
    }
 
    .flow__ol {
       margin-top: 70px;
+      margin-bottom: 5px;
       display: flex;
       justify-content: flex-start;
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 67px;
+      padding-right:68px;
    }
 
    .flow__text {
@@ -496,8 +494,8 @@ body {
    }
 
    .flow__p {
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 77px;
+      margin-right: 77px;
       margin-bottom: 25px;
    }
 
