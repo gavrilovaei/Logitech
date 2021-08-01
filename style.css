@@ -103,6 +103,10 @@ body {
    margin-bottom: 31px;
 }
 
+.bluetooth__img_mouse {
+   flex-grow: 1;
+}
+
 .info {
    padding-top: 70px;
    padding-bottom: 63px;
@@ -209,7 +213,7 @@ body {
 .flow {
    padding-top: 70px;
    padding-bottom: 198px;
-   background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.jpg);
+   background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1_mob.png);
    background-size: 117%;
    background-repeat: no-repeat;
    background-position: center bottom;
@@ -361,7 +365,7 @@ body {
 
    .bluetooth {
       padding-top: 80px;
-      padding-bottom: 0px;
+      padding-bottom: 46px;
    }
 
    .bluetooth__icon {
@@ -380,6 +384,10 @@ body {
       height: 597px;
       margin-left: 39px;
       margin-right: 19px;
+   }
+
+   .bluetooth__img_mouse {
+      width: 100%;
    }
 
    .info {
@@ -449,6 +457,7 @@ body {
    }
 
    .flow {
+      background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1-tablet.png);
       padding-bottom: 465px;
       background-size: contain;
       padding-left: 67px;
