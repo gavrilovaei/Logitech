@@ -571,6 +571,15 @@ body {
       padding-bottom: 50px;
    }
 
+   .mouse__img_1 {
+      background-image: url(img/Mouse_tablete_img_1.png);
+   }
+   
+   .mouse__img_2 {
+      background-image: url(img/Mouse_tablete_img_2.png);
+   }
+   
+
    .footer {
       padding-top: 47px;
       padding-bottom: 71px;
