@@ -515,12 +515,12 @@ body {
    }
 
    .settings__heading {
-      margin-left: 151px;
-      margin-right: 150px;
+      margin-left: 64px;
+      margin-right: 65px;
    }
 
    .settings__slide {
-      margin: 54px 133px 148px 135px;
+      margin: 54px auto 148px auto;
    }
 
    .settings .carousel-indicators [data-bs-target] {
@@ -530,8 +530,8 @@ body {
 
    .settings .carousel-indicators {
       top: 651px;
-      margin-right: 0;
-      margin-left: -41px;
+      margin-right: auto;
+      margin-left: auto;
       width: 300px;
    }
 
