@@ -20,9 +20,37 @@
 </head>
 
 <body>
-   <section class="top">
+   <section class="top center">
       <header class="header">
-         <a href="index.html"><img src="img/Logo_Logitech_dark 1.svg" alt="logo" class="header__logo"></a>
+
+         <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="index.html"><img src="img/Logo_Logitech_dark 1.svg" alt="logo"
+                     class="header__logo_dark"></a>
+               <a href="index.html"><img src="img/Logo_Logitech_white.svg" alt="logo" class="header__logo_white"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                     </li>
+                  </ul>
+               </div>
+         </div>
+         </nav>
       </header>
       <div class="top__img">
          <h2 class="heading">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h2>
@@ -30,10 +58,7 @@
       <p class="text top__text-margin">Создана для эффективной работы, программирования и творчества</p>
       <div class="top__arrow center-content">
          <a href="#bluetooth">
-            <!-- <svg class="top__svg" width="57" height="29" viewBox="0 0 42 22" fill="none"
-               xmlns="http://www.w3.org/2000/svg">
-               <path d="M1 1L20.6552 21L40.3103 1" stroke="#FF2947" stroke-width="2" stroke-linejoin="round" />
-            </svg> -->
+
             <svg class="top__svg" width="42" height="22" viewBox="0 0 42 22" fill="none"
                xmlns="http://www.w3.org/2000/svg">
                <path d="M1 1L20.6552 21L40.3103 1" stroke="#FF2947" stroke-width="2" stroke-linejoin="round" />
@@ -43,7 +68,7 @@
       </div>
 
    </section>
-   <section class="bluetooth">
+   <section class="bluetooth center" id="bluetooth">
       <div class="bluetooth__icon center-content">
          <svg width="18" height="34" viewBox="0 0 18 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -56,10 +81,11 @@
          приоритетные задачи прежде, чем понадобится подзарядка.</p>
       <div class="bluetooth__img">
          <h3 class="bluetooth__heading">70 дней</h3>
-         <img class="bluetooth__img_mouse" src="img/High_Resolution_PNG-MX Master 3 LEFT GRAPHITE 1.png" alt="bluetooth mouse">
+         <img class="bluetooth__img_mouse" src="img/High_Resolution_PNG-MX Master 3 LEFT GRAPHITE 1.png"
+            alt="bluetooth mouse">
       </div>
    </section>
-   <section class="info">
+   <section class="info info-center">
       <h2 class="heading">ЗА ЛЮБЫМ СТОЛОМ</h2>
       <p class="text info__text">Исследуйте ландшафты своего дома, не отвлекаясь от работы.
          MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.
@@ -149,9 +175,10 @@
       </ol>
       <img class="flow__img" src="img/High_Resolution_JPG-MX Lifestyle 2346 1_mob.png" alt="flow">
    </section>
-   <section class="settings">
+   <section class="settings center">
       <h2 class="heading settings__heading">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
-      <p class="text text_margin settings__text_margin">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
+      <p class="text text_margin settings__text_margin">Мышь MX Master 3 адаптируется под ваши рабочие процессы.
+         Благодаря
          индивидуальным настройкам, вы сможете настроить кнопки и жесты практически
          под любое используемое приложение.</p>
       <div id="carouselExampleIndicators1" class="carousel slide settings__slide" data-bs-ride="carousel">
@@ -207,7 +234,7 @@
             на Windows и Mac.</p>
       </div>
    </section>
-   <section class="mouse">
+   <section class="mouse center">
       <div class="mouse__text">
          <h2 class="heading">КОМФОРТНО.<br>
             ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
@@ -224,7 +251,7 @@
       </div>
       <div class="mouse__img mouse__img_2"></div>
    </section>
-   <footer class="footer">
+   <footer class="footer center">
       Copyright &copy; 2021 Logitech<br>
       Все права защищены
    </footer>

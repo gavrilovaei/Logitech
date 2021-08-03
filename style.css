@@ -13,6 +13,10 @@ body {
    text-transform: uppercase;
 }
 
+.header__logo_white {
+   display: none;
+}
+
 .heading {
    font-style: normal;
    font-weight: 900;
@@ -321,7 +325,7 @@ body {
       padding-bottom: 80px;
    }
 
-   .header__logo {
+   .header__logo_dark {
       width: 240px;
    }
 
@@ -586,6 +590,34 @@ body {
       padding-bottom: 71px;
       font-size: 14px;
       line-height: 16px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .center {
+      padding-left: calc(50% - 580px);
+      padding-right: calc(50% - 580px);
+   }
+
+   .info-center {
+      padding-left: calc(50% - 640px);
+      padding-right: calc(50% - 640px);
+   }
+
+   .top__img {
+      margin-top: 20px;
+      height: 671px;
+      background-image: url(img/MX-Master_top_desctop.png);     
+      margin-bottom: 8px;     
+   }
+
+   .header__logo_dark {
+      display: none;
+   }
+
+   .header__logo_white {
+      display: block;
+      width: 150px;
    }
 
 }
