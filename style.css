@@ -58,6 +58,38 @@ body {
    padding-bottom: 46px;
 }
 
+.navbar {
+   /* position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center; */
+   justify-content: center;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.bg-light {
+   background-color: #E0E1E2!important;
+}
+
+.navbar-light .navbar-toggler {
+   color: rgba(0,0,0,.55);
+   border-color: rgba(0,0,0,.1);
+}
+
+.navbar-toggler {
+   padding: 0;
+   position: absolute;
+   top: 20px;
+   right:28px;
+   font-size: 1.25rem;
+   line-height: 1;
+   background-color: transparent;
+   border: 1px solid transparent;
+   border-radius: .25rem;
+   transition: box-shadow .15s ease-in-out;
+}
+
 .top__img {
    margin-top: 94px;
    height: 230px;
