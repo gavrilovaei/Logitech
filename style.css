@@ -215,13 +215,13 @@ body {
 }
 
 .flow {
-   padding-top: 70px;  
+   padding-top: 70px;
    background-color: #EDEDED;
 }
 
 .flow__ol {
    margin-top: 36px;
-     
+
    padding-left: 54px;
    list-style-position: inside;
 }
@@ -265,7 +265,7 @@ body {
 
 .settings .w-100 {
    height: 405px;
-   width: auto!important;
+   width: auto !important;
    margin: 0 auto;
 }
 
@@ -471,7 +471,7 @@ body {
       display: flex;
       justify-content: flex-start;
       padding-left: 67px;
-      padding-right:68px;
+      padding-right: 68px;
    }
 
    .flow__text {
@@ -579,11 +579,11 @@ body {
    .mouse__img_1 {
       background-image: url(img/Mouse_tablete_img_1.png);
    }
-   
+
    .mouse__img_2 {
       background-image: url(img/Mouse_tablete_img_2.png);
    }
-   
+
 
    .footer {
       padding-top: 47px;
@@ -604,11 +604,13 @@ body {
       padding-right: calc(50% - 640px);
    }
 
-   .top__img {
-      margin-top: 20px;
-      height: 671px;
-      background-image: url(img/MX-Master_top_desctop.png);     
-      margin-bottom: 8px;     
+   .top {
+      padding-top: 0;
+   }
+
+   .header {
+      height: 100px;
+      background-color: #2F3132;  
    }
 
    .header__logo_dark {
@@ -618,6 +620,55 @@ body {
    .header__logo_white {
       display: block;
       width: 150px;
+   }
+
+   .navbar {
+      background-color: #2F3132 !important;
+   }
+
+   .navbar-nav {
+      display: flex;
+      justify-content: end;
+      margin-left: auto;
+   }
+
+   .navbar-expand-lg {
+      justify-content: space-between;
+      width: 100%;
+      height: 98px;
+   }
+
+   .navbar-light .navbar-nav .nav-link:link {
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+   }
+
+   .navbar-light .navbar-nav .nav-link:visited,
+   .navbar-light .navbar-nav .nav-link:hover,
+   .navbar-light .navbar-nav .nav-link:active {
+      color: #FFFFFF;
+      border-bottom: 1px solid #FFFFFF;
+   }
+
+   .nav-item {
+      padding-left: 12px;
+      padding-right: 14px;
+      border-right: 1px solid #494949;
+   }
+
+   .nav-item:last-child {
+      padding-right: 0;
+      border-right: none;
+   }
+
+   .top__img {
+      margin-top: 20px;
+      height: 671px;
+      background-image: url(img/MX-Master_top_desctop.png);
+      margin-bottom: 8px;
    }
 
 }
