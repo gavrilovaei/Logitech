@@ -40,7 +40,7 @@ body {
 .header__nav {
    background-color: #2F3132;
    width: 100%;
-   height: 810px;
+   /* height: 810px; */
    position: absolute;
    top: 0;
    left: -100vw;
@@ -743,9 +743,10 @@ body {
    .header__logo_white {
       display: block;
       width: 150px;
+      height: 45px;
    }
 
-   .navbar {
+   /* .navbar {
       background-color: #2F3132 !important;
    }
 
@@ -774,7 +775,7 @@ body {
    .navbar-light .navbar-nav .nav-link:active {
       color: #FFFFFF;
       border-bottom: 1px solid #FFFFFF;
-   }
+   } */
 
    .nav-item {
       padding-left: 12px;
