@@ -398,6 +398,7 @@ body {
 
    .header__nav_logo_white {
       width: 240px;
+      height: 71px;
    }
 
    .header__menu-burger {
@@ -411,42 +412,34 @@ body {
    }
 
    .header__nav {
-      height: 894px;
+      height: 1165px;
       top: -29px;
-      /* padding-top: 64px; */
-      /* margin-top: -25px; */
+      padding-top: 64px;
    }
    
    .header__nav-logo {
-      margin-bottom: 147px;
-   }
-   
-   .header__nav_logo_white {
-      width: 130px;
-      height: 40px;
+      margin-bottom: 123px;
    }
    
    .header__menu-close {
-      position: absolute;
-      top: 14px;
-      right: 15px;
+      top: 45px;
+      right: 64px;
+   }
+
+   .header__menu-close-img {
+      width: 87px;
+      height: 87px;
    }
    
    .header__nav-item {
-      font-weight: 900;
-      font-size: 20px;
-      line-height: 23px;
-      text-transform: uppercase;
-      text-align: center;
-      color: #C4C4C4;
-      text-decoration: none;
-      margin: 0 28px 26px 26px;
-      padding-bottom: 5px;
+      font-size: 40px;
+      line-height: 47px;
+      margin-bottom: 52px;
+      padding-bottom: 6px;
    }
    
-   .header__nav-item:hover {
-      color: #FFFFFF;
-      border-bottom: 2px solid #FFFFFF;
+   .header__nav-item:hover {    
+      border-bottom: 4px solid #FFFFFF;;
    }
 
    .top__img {
@@ -643,8 +636,12 @@ body {
       margin-right: 65px;
    }
 
+   .carousel.pointer-event {
+      height: 579px;
+   }
+
    .settings__slide {
-      margin: 54px auto 148px auto;
+      margin: 54px auto 177px auto;
    }
 
    .settings .carousel-indicators [data-bs-target] {
@@ -665,7 +662,7 @@ body {
 
    .settings__content {
       padding-top: 38px;
-      padding-bottom: 29px;
+      padding-bottom: 31px;
    }
 
    .settings__icon {
