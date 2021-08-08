@@ -169,6 +169,10 @@ body {
    margin-bottom: 0;
 }
 
+.bluetooth__img_mouse-1 {
+   display: none;
+}
+
 .bluetooth__img {
    height: 288px;
    display: flex;
@@ -744,6 +748,11 @@ body {
       line-height: 23px;
    }
 
+   .bluetoth__text-padding {
+      padding-left: 122px;
+      padding-right: 122px;
+   }
+
    .top {
       padding-top: 0;
       padding-bottom: 56px;
@@ -798,7 +807,7 @@ body {
       list-style: none;
       flex-grow: 1;
    }
-   
+
    .header__nav_li {
       border-right: 1px solid #494949;
       padding: 0 21px;
@@ -829,15 +838,63 @@ body {
    .heading {
       font-size: 36px;
       line-height: 42px;
+      margin-bottom: 35px;
    }
 
    .top__arrow {
       margin-top: 49px;
    }
 
+   .bluetooth {
+      padding-top: 48px;
+      padding-bottom: 48px;
+   }
+
+   .bluetooth__img {
+      height: 426px;     
+      margin-bottom: 13px;
+      position: relative;
+   }  
+
+   .bluetooth__heading {
+      font-size: 96px;
+      line-height: 113px;
+      padding-right: 0;
+      padding-left: 0;
+      display: flex;
+      margin-top: 57px;
+      margin-left: 10px;
+      margin-left: 60px;
+   }
+
+   .bluetooth_70 {
+      font-size: 300px;
+      line-height: 352px;
+      margin-top: -46px;     
+   }
+
+   .bluetooth_day {
+      margin-left: -5px;
+   }
+
+   .bluetooth__img_mouse-1 {
+      display: block;
+      position: absolute;
+      top: 133px;
+      left: -83px;
+   }
+
+   .bluetooth__img_mouse {    
+      width: 645px;
+      height: 373px;
+      position: absolute;
+      right: -48px;
+      top: 100px;
+   }
+
 }
 
-@media (min-widt: 1440px) {
+@media (min-width: 1440px) {
 
    .top {
       padding-bottom: 80px;
@@ -898,6 +955,33 @@ body {
 
    .top__arrow {
       margin-top: 49px;
+   }
+
+   .bluetooth {
+      padding-top: 78px;
+      padding-bottom: 70px;
+   }
+   
+   .info {
+      padding-top: 100px;
+   }
+
+   .info__text {
+      padding-left: 225px;
+      padding-right: 225px;
+   }
+
+   .info__item {
+      flex-basis: 236px;
+      min-height: 140px;
+   }
+
+   .info__item-heading {
+      margin-bottom: 0;
+   }
+
+   .w-100 {
+      height: 573px;
    }
 
 }
