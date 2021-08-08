@@ -746,39 +746,14 @@ body {
 
    .top {
       padding-top: 0;
-<<<<<<< HEAD
-=======
       padding-bottom: 56px;
->>>>>>> 89f8f094795483690a8063efbcc8c9ff99327cf5
    }
 
    .header {
       height: 100px;
       background-color: #2F3132;
-<<<<<<< HEAD
-      padding-top: 20px;
-      padding-bottom: 28px;
-   }
-
-   .navbar-nav {
-      margin-left: auto;
-      padding-bottom: 5px;
-   }
-
-   .container-fluid {
-      width: 1190px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0;
-      padding-right: 10px;
-   }
-
-   .bg-light {
-      background-color: #2F3132 !important;
-=======
       justify-content: space-between;
       align-items: center;
->>>>>>> 89f8f094795483690a8063efbcc8c9ff99327cf5
    }
 
    .header__logo_dark {
