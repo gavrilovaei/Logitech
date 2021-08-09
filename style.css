@@ -315,7 +315,11 @@ body {
    margin-bottom: 15px;
 }
 
-.flow__img {
+.flow__img-desktop {
+   display: none;
+}
+
+.flow__img-mob {
    width: 100%;
 }
 
@@ -983,8 +987,14 @@ body {
    flex-grow: 2;
 }
 
-.flow__img {  
-   height: 662px;
+.flow__img-mob {
+   display: none;
+}
+
+.flow__img-desktop { 
+   display: block; 
+   height: 578px;
+   margin-top: 83px;
 }
 
 }
@@ -1065,5 +1075,20 @@ body {
       margin-bottom: 41px;
       
    }
+
+   .flow {
+      padding-top: 99px;
+   }
+
+   .flow__p {
+      margin-left: 498px;
+      margin-right: 497px;     
+  }
+
+
+  .flow__img-desktop {
+   height: 866px;
+   margin-top: 10px;
+}
 
 }
