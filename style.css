@@ -229,6 +229,10 @@ body {
    margin-bottom: 28px;
 }
 
+.carousel-inner .img-desktop {
+   display: none !important;
+}
+
 /* Для дальнейшей стилизации */
 
 .carousel-control-next-icon {
@@ -570,6 +574,7 @@ body {
       padding: 0px;
    }
 
+
    .carousel-control-next,
    .carousel-control-prev {
       bottom: 166px;
@@ -851,10 +856,10 @@ body {
    }
 
    .bluetooth__img {
-      height: 426px;     
+      height: 426px;
       margin-bottom: 13px;
       position: relative;
-   }  
+   }
 
    .bluetooth__heading {
       font-size: 96px;
@@ -870,7 +875,7 @@ body {
    .bluetooth_70 {
       font-size: 300px;
       line-height: 352px;
-      margin-top: -46px;     
+      margin-top: -46px;
    }
 
    .bluetooth_day {
@@ -884,12 +889,67 @@ body {
       left: -83px;
    }
 
-   .bluetooth__img_mouse {    
+   .bluetooth__img_mouse {
       width: 645px;
       height: 373px;
       position: absolute;
       right: -48px;
       top: 100px;
+   }
+
+   .info__text {
+      padding-left: 225px;
+      padding-right: 225px;
+   }
+
+   .info__item {
+      flex-basis: 236px;
+      min-height: 140px;
+   }
+
+   .info__item-heading {
+      margin-bottom: 0;
+   }
+
+   .carousel {
+      margin-bottom: 39px;
+   }
+
+   .w-100 {
+      height: 573px;
+   }
+
+   .carousel-inner .img-mob {
+      display: none !important;
+   }
+
+   .carousel-inner .img-desktop {
+      display: block !important;
+   }
+
+   .carousel.pointer-event {
+      height: 573px;
+   }
+
+   .info__heading {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 90px;
+   }
+
+   .info__text_margin {     
+      margin: 0 77px 9px;
+      padding: 0 180px;
+   }
+
+   .info {
+      padding-top: 70px;
+   }
+
+   .carousel-indicators {
+      bottom: -144px;
+      left: 273px;
+      right: 273px;
    }
 
 }
@@ -961,27 +1021,14 @@ body {
       padding-top: 78px;
       padding-bottom: 70px;
    }
-   
+
    .info {
       padding-top: 100px;
    }
 
-   .info__text {
-      padding-left: 225px;
-      padding-right: 225px;
-   }
-
-   .info__item {
-      flex-basis: 236px;
-      min-height: 140px;
-   }
-
-   .info__item-heading {
-      margin-bottom: 0;
-   }
-
-   .w-100 {
-      height: 573px;
+   .info__text_margin {     
+      margin-bottom: 41px;
+      
    }
 
 }
