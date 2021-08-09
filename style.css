@@ -1091,4 +1091,9 @@ body {
    margin-top: 10px;
 }
 
+.flow__ol {  
+   padding-left: 499px;
+   padding-right: 489px;
+}
+
 }
