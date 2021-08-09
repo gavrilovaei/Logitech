@@ -952,6 +952,41 @@ body {
       right: 273px;
    }
 
+   .flow__p {
+      margin-left: 170px;
+      margin-right: 169px;     
+  }
+
+  .flow__ol {  
+   margin-bottom: 0; 
+   padding-left: 169px;
+   padding-right: 178px;
+}
+
+.flow__text {
+   margin-bottom: 0;  
+   width: 315px;
+   padding-bottom: 0;
+   flex-grow: 3;
+   padding-left: 71px;
+   padding-right: 35px;
+}
+
+.flow__text:first-child {  
+   flex-grow: 0;
+   margin-right: 12px;
+}
+
+.flow__text:last-child {
+   padding-left: 58px;  
+   width: 125px;
+   flex-grow: 2;
+}
+
+.flow__img {  
+   height: 662px;
+}
+
 }
 
 @media (min-width: 1440px) {
