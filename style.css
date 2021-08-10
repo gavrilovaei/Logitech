@@ -722,6 +722,7 @@ body {
 
    .mouse__img {
       height: 549px;
+      background-size: cover;
    }
 
    .mouse__text {
@@ -1051,13 +1052,12 @@ body {
 
    .mouse__img {
       flex-basis: 640px;
-      height: 557px;     
-      background-size: cover;     
+      height: 557px;
    }
 
    .mouse__img_1 {
       order: -1;
-      background-position: left;     
+      background-position: left;
    }
 
    .mouse__text_1 {
@@ -1079,7 +1079,7 @@ body {
    .mouse__text_2 {
       padding-top: 162px;
       padding-right: 32px;
-      padding-left: 180px;     
+      padding-left: 180px;
    }
 
    .mouse__heading_2 {
@@ -1195,39 +1195,35 @@ body {
       margin-left: -18px;
    }
 
-   .settings__content {      
+   .settings__content {
       margin-left: calc(50% - 375px);
-      margin-right: calc(50% - 373px);     
-  }
+      margin-right: calc(50% - 373px);
+   }
 
    .mouse {
-     padding-top: 100px;
-     padding-bottom: 100px;
-     padding-left: 307px;
-     padding-right: 307px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 307px;
+      padding-right: 307px;
       height: 1314px;
    }
 
-   .mouse__text_1 {     
+   .mouse__text_1 {
       padding-left: 35px;
       padding-right: 140px;
    }
 
-   .mouse__text_2 {     
+   .mouse__text_2 {
       padding-right: 30px;
       padding-left: 200px;
-  }
+   }
 
-  .mouse__text {
-     flex-grow: 1;
-  }
+   .mouse__text {
+      flex-grow: 1;
+   }
 
-  .mouse__img {
-   flex-basis: 654px;   
-}
-
-   
-
-
+   .mouse__img {
+      flex-basis: 654px;
+   }
 
 }
