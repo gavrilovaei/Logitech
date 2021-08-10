@@ -1187,12 +1187,46 @@ body {
 
    .settings {
       padding-top: 100px;
+      padding-bottom: 100px;
    }
 
    .settings__img-desktop {
       margin-top: 72px;
       margin-left: -18px;
    }
+
+   .settings__content {      
+      margin-left: calc(50% - 375px);
+      margin-right: calc(50% - 373px);     
+  }
+
+   .mouse {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 307px;
+     padding-right: 307px;
+      height: 1314px;
+   }
+
+   .mouse__text_1 {     
+      padding-left: 35px;
+      padding-right: 140px;
+   }
+
+   .mouse__text_2 {     
+      padding-right: 30px;
+      padding-left: 200px;
+  }
+
+  .mouse__text {
+     flex-grow: 1;
+  }
+
+  .mouse__img {
+   flex-basis: 654px;   
+}
+
+   
 
 
 
