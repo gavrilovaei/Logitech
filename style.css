@@ -741,7 +741,7 @@ body {
    }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
    .center {
       padding-left: calc(50% - 580px);
       padding-right: calc(50% - 580px);
@@ -1094,6 +1094,10 @@ body {
 .flow__ol {  
    padding-left: 499px;
    padding-right: 489px;
+}
+
+.settings {
+   padding-top: 100px; 
 }
 
 }
