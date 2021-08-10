@@ -351,6 +351,10 @@ body {
    margin: 0 auto;
 }
 
+.settings__img-desktop {
+   display: none;
+}
+
 .settings__content {
    background-color: #C4C4C4;
    padding-top: 23px;
@@ -941,7 +945,7 @@ body {
       margin-bottom: 90px;
    }
 
-   .info__text_margin {     
+   .info__text_margin {
       margin: 0 77px 9px;
       padding: 0 180px;
    }
@@ -957,45 +961,136 @@ body {
    }
 
    .flow__p {
-      margin-left: 170px;
-      margin-right: 169px;     
-  }
+      margin-left: calc(50% - 470px);
+      margin-right: calc(50% - 470px);
+   }
 
-  .flow__ol {  
-   margin-bottom: 0; 
-   padding-left: 169px;
-   padding-right: 178px;
-}
+   .flow__ol {
+      margin-bottom: 0;
+      padding-left: calc(50% - 470px);
+      padding-right: calc(50% - 460px);
+   }
 
-.flow__text {
-   margin-bottom: 0;  
-   width: 315px;
-   padding-bottom: 0;
-   flex-grow: 3;
-   padding-left: 71px;
-   padding-right: 35px;
-}
+   .flow__text {
+      margin-bottom: 0;
+      width: 315px;
+      padding-bottom: 0;
+      flex-grow: 3;
+      padding-left: 71px;
+      padding-right: 35px;
+   }
 
-.flow__text:first-child {  
-   flex-grow: 0;
-   margin-right: 12px;
-}
+   .flow__text:first-child {
+      flex-grow: 0;
+      margin-right: 12px;
+   }
 
-.flow__text:last-child {
-   padding-left: 58px;  
-   width: 125px;
-   flex-grow: 2;
-}
+   .flow__text:last-child {
+      padding-left: 58px;
+      width: 125px;
+      flex-grow: 2;
+   }
 
-.flow__img-mob {
-   display: none;
-}
+   .flow__img-mob {
+      display: none;
+   }
 
-.flow__img-desktop { 
-   display: block; 
-   height: 578px;
-   margin-top: 83px;
-}
+   .flow__img-desktop {
+      display: block;
+      height: 578px;
+      margin-top: 83px;
+   }
+
+   .settings {
+      padding-bottom: 72px;
+   }
+
+   .text_settings {
+      margin-left: 50px;
+      margin-right: 75px;
+   }
+
+   .settings__heading {
+      margin-bottom: 39px;
+   }
+
+   .settings__text_margin {
+      margin-left: calc(50% - 414px);
+      margin-right: calc(50% - 413px);
+   }
+
+   #carouselExampleIndicators1 {
+      display: none;
+   }
+
+   .settings__img-desktop {
+      display: block;
+      margin-top: 54px;
+      margin-left: -6px;
+   }
+
+   .settings__content {
+      margin-top: -58px;
+      margin-left: calc(50% - 353px);
+      margin-right: calc(50% - 397px);
+      height: 196px;
+   }
+
+   .mouse {
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      height: 1114px;
+   }
+
+   .mouse__text {
+      flex-basis: 640px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .mouse__img {
+      flex-basis: 640px;
+      height: 557px;     
+      background-size: cover;     
+   }
+
+   .mouse__img_1 {
+      order: -1;
+      background-position: left;     
+   }
+
+   .mouse__text_1 {
+      padding-top: 121px;
+      padding-left: 32px;
+      padding-right: 126px;
+   }
+
+   .mouse__heading_1 {
+      margin-bottom: 28px;
+      text-align: left;
+   }
+
+   .mouse__text-p_1 {
+      text-align: left;
+      margin-left: 0;
+   }
+
+   .mouse__text_2 {
+      padding-top: 162px;
+      padding-right: 32px;
+      padding-left: 180px;     
+   }
+
+   .mouse__heading_2 {
+      margin-bottom: 33px;
+      text-align: right;
+   }
+
+   .mouse__text-p_2 {
+      text-align: right;
+      margin-right: 0;
+   }
 
 }
 
@@ -1071,33 +1166,34 @@ body {
       padding-top: 100px;
    }
 
-   .info__text_margin {     
+   .info__text_margin {
       margin-bottom: 41px;
-      
+
    }
 
    .flow {
       padding-top: 99px;
    }
 
-   .flow__p {
-      margin-left: 498px;
-      margin-right: 497px;     
-  }
+   .flow__img-desktop {
+      height: 866px;
+      margin-top: 10px;
+   }
+
+   .flow__ol {
+      padding-left: calc(50% - 460px);
+      padding-right: calc(50% - 470px);
+   }
+
+   .settings {
+      padding-top: 100px;
+   }
+
+   .settings__img-desktop {
+      margin-top: 72px;
+      margin-left: -18px;
+   }
 
 
-  .flow__img-desktop {
-   height: 866px;
-   margin-top: 10px;
-}
-
-.flow__ol {  
-   padding-left: 499px;
-   padding-right: 489px;
-}
-
-.settings {
-   padding-top: 100px; 
-}
 
 }
