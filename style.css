@@ -312,7 +312,7 @@ body {
 .flow__text {
    margin-bottom: 19px;
    text-align: left;
-   width: 220px;  
+   width: 220px;
 }
 
 .flow__text:last-child {
@@ -408,19 +408,19 @@ body {
 /* @media для корректного отображения блока flow и bluetooth, чтобы текст не наезжал на фоновое изображение: */
 
 @media (min-width: 430px) {
-  
+
    .bluetooth__img_mouse {
-      
+
       width: 375px;
-  }
-  
+   }
+
    .flow {
       padding-bottom: calc(50% + 20px);
    }
 
-   .flow__text {     
+   .flow__text {
       width: 70%;
-  }
+   }
 }
 
 @media (min-width: 768px) {
@@ -534,7 +534,7 @@ body {
 
    .bluetooth {
       padding-top: 80px;
-      padding-bottom: 46px;
+      padding-bottom: 47px;
    }
 
    .bluetooth__icon {
@@ -546,7 +546,7 @@ body {
       line-height: 176px;
       margin-top: 76px;
       padding-right: 22px;
-      margin-bottom: -66px;
+      margin-bottom: -76px;
    }
 
    .bluetooth__img {
@@ -591,6 +591,7 @@ body {
 
    .carousel-inner {
       width: 894px;
+      margin: 0 auto;
    }
 
    .info__text {
@@ -695,17 +696,20 @@ body {
    .settings {
       padding-left: 64px;
       padding-right: 65px;
-      padding-bottom: 70px;
-
+      padding-bottom: 71px;
    }
 
    .settings__heading {
       margin-left: 64px;
       margin-right: 65px;
-   }  
+   }
 
    .settings__slide {
-      margin: 54px auto 150px auto;
+      margin: 54px auto 146px auto;
+   }
+
+   .settings__carousel-inner {
+      width: 100%;
    }
 
    .settings .carousel-indicators [data-bs-target] {
@@ -721,7 +725,7 @@ body {
    }
 
    .settings .w-100 {
-      height: 610px;     
+      height: 610px;
    }
 
    .settings__content {
@@ -751,7 +755,7 @@ body {
 
    .mouse__img {
       height: 549px;
-      background-size: cover;
+      background-size: contain;
    }
 
    .mouse__text {
@@ -957,12 +961,17 @@ body {
       height: 573px;
    }
 
+   .carousel-inner {
+      width: 1280px;
+   }
+
    .carousel-inner .img-mob {
       display: none !important;
    }
 
    .carousel-inner .img-desktop {
       display: block !important;
+      width: 100%;
    }
 
    .carousel.pointer-event {
@@ -1023,10 +1032,10 @@ body {
       padding-left: 58px;
       width: 125px;
       flex-grow: 2;
-   } 
+   }
 
    .settings {
-      padding-bottom: 72px;
+      padding-bottom: 69px;
    }
 
    .text_settings {
@@ -1047,6 +1056,8 @@ body {
       display: none;
    }
 
+  
+
    .settings__img-desktop {
       display: block;
       margin-top: 54px;
@@ -1063,8 +1074,12 @@ body {
    .mouse {
       padding: 0;
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       height: 1114px;
+   }
+
+   .mouse__container {
+      display: flex;
    }
 
    .mouse__text {
@@ -1074,8 +1089,9 @@ body {
    }
 
    .mouse__img {
-      flex-basis: 640px;
+      width: 640px;
       height: 557px;
+      background-size: cover;
    }
 
    .mouse__img_1 {
@@ -1197,7 +1213,7 @@ body {
    .flow {
       padding-top: 99px;
       padding-bottom: 875px;
-   }   
+   }
 
    .flow__ol {
       padding-left: calc(50% - 460px);
