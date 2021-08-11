@@ -298,7 +298,7 @@ body {
    background-image: url(img/bg\ flow-mob.png);
    background-repeat: no-repeat;
    background-position: bottom;
-   padding-bottom: 219px;
+   padding-bottom: 202px;
    background-size: contain;
 }
 
@@ -412,7 +412,19 @@ body {
    color: #C7C8C8;
 }
 
-@media (min-width: 460px) {
+/* @media для корректного отображения блока flow, чтобы текст не наезжал на фоновое изображение: */
+
+@media (min-width: 430px) {
+   .flow {
+      padding-bottom: calc(50% + 20px);
+   }
+
+   .flow__text {     
+      width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
    .top {
       padding-top: 54px;
       padding-bottom: 80px;
@@ -545,7 +557,7 @@ body {
    }
 
    .bluetooth__img_mouse {
-      width: 850px;
+      width: 100%;
    }
 
    .info {
@@ -646,6 +658,7 @@ body {
       padding-right: 20px;
       margin-bottom: 0;
       border-left: 1px solid #494949;
+      width: 220px;
    }
 
    .flow__text:first-child {
@@ -665,7 +678,7 @@ body {
    .flow__p {
       margin-left: 77px;
       margin-right: 77px;
-      margin-bottom: 25px;
+      margin-bottom: 27px;
    }
 
    .carousel-control-next {
