@@ -322,14 +322,6 @@ body {
    margin-bottom: 16px;
 }
 
-/* .flow__img-desktop {
-   display: none;
-} */
-
-/* .flow__img-mob {
-   width: 100%;
-} */
-
 .settings {
    padding-top: 70px;
    background-color: #EDEDED;
@@ -987,6 +979,10 @@ body {
       right: 273px;
    }
 
+   .flow {
+      padding-bottom: 661px;
+   }
+
    .flow__p {
       margin-left: calc(50% - 470px);
       margin-right: calc(50% - 470px);
@@ -1016,17 +1012,7 @@ body {
       padding-left: 58px;
       width: 125px;
       flex-grow: 2;
-   }
-
-   .flow__img-mob {
-      display: none;
-   }
-
-   .flow__img-desktop {
-      display: block;
-      height: 578px;
-      margin-top: 83px;
-   }
+   } 
 
    .settings {
       padding-bottom: 72px;
@@ -1199,12 +1185,8 @@ body {
 
    .flow {
       padding-top: 99px;
-   }
-
-   .flow__img-desktop {
-      height: 866px;
-      margin-top: 10px;
-   }
+      padding-bottom: 875px;
+   }   
 
    .flow__ol {
       padding-left: calc(50% - 460px);
