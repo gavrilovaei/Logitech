@@ -182,7 +182,8 @@ body {
 }
 
 .bluetooth__img_mouse {
-   flex-grow: 1;
+   /* flex-grow: 1; */
+   width: 100%;
 }
 
 .info {
@@ -404,9 +405,15 @@ body {
    color: #C7C8C8;
 }
 
-/* @media для корректного отображения блока flow, чтобы текст не наезжал на фоновое изображение: */
+/* @media для корректного отображения блока flow и bluetooth, чтобы текст не наезжал на фоновое изображение: */
 
 @media (min-width: 430px) {
+  
+   .bluetooth__img_mouse {
+      
+      width: 375px;
+  }
+  
    .flow {
       padding-bottom: calc(50% + 20px);
    }
@@ -549,7 +556,7 @@ body {
    }
 
    .bluetooth__img_mouse {
-      width: 100%;
+      width: 836px;
    }
 
    .info {
@@ -580,6 +587,10 @@ body {
 
    .carousel {
       margin-bottom: 48px;
+   }
+
+   .carousel-inner {
+      width: 894px;
    }
 
    .info__text {
@@ -764,7 +775,7 @@ body {
    }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
    .center {
       padding-left: calc(50% - 580px);
       padding-right: calc(50% - 580px);
