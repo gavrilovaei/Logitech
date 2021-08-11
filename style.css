@@ -181,8 +181,7 @@ body {
    margin-bottom: 31px;
 }
 
-.bluetooth__img_mouse {
-   /* flex-grow: 1; */
+.bluetooth__img_mouse {  
    width: 100%;
 }
 
@@ -233,8 +232,6 @@ body {
 .carousel-inner .img-desktop {
    display: none !important;
 }
-
-/* Для дальнейшей стилизации */
 
 .carousel-control-next-icon {
    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 20' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -405,7 +402,7 @@ body {
    color: #C7C8C8;
 }
 
-/* @media для корректного отображения блока flow и bluetooth, чтобы текст не наезжал на фоновое изображение: */
+/* @media (min-width: 430px) для корректного отображения блока flow и bluetooth, чтобы текст не наезжал на фоновое изображение: */
 
 @media (min-width: 430px) {
 
@@ -1237,9 +1234,7 @@ body {
 
    .mouse {
       padding-top: 100px;
-      padding-bottom: 100px;
-      /* padding-left: 307px;
-      padding-right: 307px; */
+      padding-bottom: 100px;     
       height: 1314px;
       max-width: 1308px;
       margin-left: auto;
