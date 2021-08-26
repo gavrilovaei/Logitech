@@ -15,17 +15,24 @@ body {
 
 .header__logo_white {
    display: none;
+   cursor: pointer;
 }
 
 .header__menu-burger {
    position: absolute;
    top: -5px;
-   right: 28px
+   right: 28px;
+   cursor: pointer;
 }
 
 .header__menu-burger_img {
    width: 30px;
    height: 16px;
+   cursor: pointer;
+}
+
+.header__menu-close-img {  
+   cursor: pointer;  
 }
 
 #toggle {
@@ -53,11 +60,13 @@ body {
 
 .header__nav-logo {
    margin-bottom: 147px;
+   cursor: pointer;
 }
 
 .header__nav_logo_white {
    width: 130px;
    height: 40px;
+   cursor: pointer;
 }
 
 .header__menu-close {
@@ -76,6 +85,7 @@ body {
    text-decoration: none;
    margin: 0 28px 26px 26px;
    padding-bottom: 5px;
+   cursor: pointer;
 }
 
 .header__nav-item:hover {
@@ -131,7 +141,7 @@ body {
 .top__img {
    margin-top: 94px;
    height: 230px;
-   background-image: url(img/MX-Master.png);
+   background-image: url(img/MX-Master_top_desctop.png);
    background-repeat: no-repeat;
    background-size: contain;
    margin-bottom: 60px;
@@ -471,12 +481,12 @@ body {
 
    .header__menu-close {
       top: 45px;
-      right: 64px;
+      right: 64px;     
    }
 
    .header__menu-close-img {
       width: 87px;
-      height: 87px;
+      height: 87px;     
    }
 
    .header__nav-item {
