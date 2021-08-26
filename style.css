@@ -63,7 +63,8 @@ body {
    cursor: pointer;
 }
 
-.header__nav_logo_white {
+.header__nav_logo_white,
+.header__logo_dark {
    width: 130px;
    height: 40px;
    cursor: pointer;
