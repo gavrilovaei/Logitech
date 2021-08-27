@@ -79,8 +79,7 @@ body {
 
 
 
-.header__nav-item,
-.header__nav-item:visited {
+.header__nav-item {
    font-weight: 900;
    font-size: 20px;
    line-height: 23px;
@@ -94,14 +93,18 @@ body {
    background: no-repeat 0 100%;
    background-image: linear-gradient(currentColor, currentColor);
    background-size: 0% 2px;
-   transition: background-size .3s ease;
+   transition: background-size .3s;
 }
 
 .header__nav-item:hover,
-.header__nav-item:active,
 .header__nav-item:focus {
    color: #FFFFFF;
    background-size: 100% 2px;
+}
+
+
+.header__nav-item:active {
+   color: #FFFFFF;
 }
 
 .heading {
