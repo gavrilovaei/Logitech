@@ -185,20 +185,20 @@ body {
    margin-bottom: 0;
 }
 
-.bluetooth__img_mouse-1 {
-   display: none;
-}
-
-.bluetooth__img {
-   height: 288px;
+.bluetooth__img { 
    display: flex;
    flex-direction: column;
-   align-items: center;
-   margin-bottom: 31px;
+   align-items: center;  
 }
 
 .bluetooth__img_mouse {
    width: 100%;
+   height: 217px;
+   background-color: #EDEDED;
+   background-image: url(img/bluetooth__img_mouse-tablet.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   background-size: contain;
 }
 
 .info {
@@ -420,12 +420,7 @@ body {
 
 /* @media (min-width: 430px) для корректного отображения блока flow и bluetooth, чтобы текст не наезжал на фоновое изображение: */
 
-@media (min-width: 430px) {
-
-   .bluetooth__img_mouse {
-
-      width: 375px;
-   }
+@media (min-width: 430px) { 
 
    .flow {
       padding-bottom: calc(50% + 20px);
@@ -543,7 +538,7 @@ body {
 
    .bluetooth {
       padding-top: 80px;
-      padding-bottom: 47px;
+      padding-bottom: 0;
    }
 
    .bluetooth__icon {
@@ -556,16 +551,19 @@ body {
       margin-top: 76px;
       padding-right: 22px;
       margin-bottom: -76px;
+      z-index: 1;
    }
 
    .bluetooth__img {
-      height: 593px;
+      /* height: 593px; */
       margin-left: 39px;
       margin-right: 19px;
+      z-index: 2;
    }
 
    .bluetooth__img_mouse {
-      width: 836px;
+      /* width: 836px; */
+      height: 498px;
    }
 
    .info {
@@ -921,6 +919,7 @@ body {
       margin-top: 57px;
       margin-left: 10px;
       margin-left: 60px;
+      z-index: 1;
    }
 
    .bluetooth_70 {
@@ -931,21 +930,16 @@ body {
 
    .bluetooth_day {
       margin-left: -5px;
-   }
-
-   .bluetooth__img_mouse-1 {
-      display: block;
-      position: absolute;
-      top: 133px;
-      left: -83px;
-   }
+   }  
 
    .bluetooth__img_mouse {
-      width: 645px;
-      height: 373px;
-      position: absolute;
-      right: -48px;
-      top: 100px;
+      width: 1280px;
+      height: 307px;
+      position: absolute;     
+      top: 120px;
+      background: 
+      url("img/bluetooth__img_mouse-1.png") no-repeat left center,
+      url("img/bluetooth__img_mouse.png") no-repeat 580px 12px;
    }
 
    .info__text {
