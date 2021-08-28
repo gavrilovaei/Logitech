@@ -14,8 +14,7 @@ body {
 }
 
 .header__logo_white {
-   display: none;
-   cursor: pointer;
+   display: none;  
 }
 
 .header__menu-burger {
@@ -61,14 +60,12 @@ body {
 
 .header__nav-logo {
    margin-bottom: 147px;
-   cursor: pointer;
 }
 
 .header__nav_logo_white,
 .header__logo_dark {
    width: 130px;
-   height: 40px;
-   cursor: pointer;
+   height: 40px;  
 }
 
 .header__menu-close {
