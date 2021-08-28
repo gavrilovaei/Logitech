@@ -26,7 +26,7 @@ body {
 
 .header__menu-burger_img {
    width: 30px;
-   height: 16px;
+   height: 20px;
    cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ body {
 .header__nav {
    background-color: #2F3132;
    width: 100%;
-   height: 810px;
+   height: 809px;
    position: absolute;
    top: 0;
    left: -100vw;
@@ -58,11 +58,14 @@ body {
    margin-top: -25px;
 }
 
+.header__nav_logo_white {
+   margin-bottom: 147px;
+}
+
 .header__nav_logo_white,
 .header__logo_dark {
    width: 130px;
-   height: 40px;
-   margin-bottom: 147px;  
+   height: 40px; 
 }
 
 .header__menu-close {
@@ -452,11 +455,14 @@ body {
       padding-top: 0;
    }
 
+   .header__nav_logo_white {
+      margin-bottom: 123px;
+   }
+
    .header__nav_logo_white,
    .header__logo_dark {
       width: 240px;
-      height: 71px;      
-      margin-bottom: 123px;
+      height: 71px;
    }
 
    .header__menu-burger {
