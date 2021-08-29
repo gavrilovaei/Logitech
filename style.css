@@ -245,8 +245,32 @@ body {
    margin-bottom: 28px;
 }
 
-.carousel-inner .img-desktop {
-   display: none !important;
+.carousel-item {
+   width: 100%;
+   height: 65vw;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+
+.wood {
+   background-image: url(img/wood.png);  
+}
+
+.glass {
+background-image: url(img/glass.png);
+}
+
+.linoleum {
+   background-image: url(img/linoleum.png);
+}
+
+.marble {
+   background-image: url(img/marble.png);
+}
+
+.cloth {
+   background-image: url(img/cloth.png);
 }
 
 .carousel-control-next-icon {
@@ -554,15 +578,13 @@ body {
       z-index: 1;
    }
 
-   .bluetooth__img {
-      /* height: 593px; */
+   .bluetooth__img {   
       margin-left: 39px;
       margin-right: 19px;
       z-index: 2;
    }
 
-   .bluetooth__img_mouse {
-      /* width: 836px; */
+   .bluetooth__img_mouse {   
       height: 498px;
    }
 
@@ -958,24 +980,39 @@ body {
 
    .carousel {
       margin-bottom: 39px;
-   }
-
-   .w-100 {
-      height: 573px;
-   }
+   } 
 
    .carousel-inner {
       width: 1280px;
    }
 
-   .carousel-inner .img-mob {
-      display: none !important;
-   }
-
-   .carousel-inner .img-desktop {
-      display: block !important;
+   .carousel-item {
       width: 100%;
+      height: 573px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
    }
+   
+   .wood {
+      background-image: url(img/wood_desktop.png);  
+   }
+   
+   .glass {
+   background-image: url(img/glass_desktop.png);
+   }
+   
+   .linoleum {
+      background-image: url(img/linoleum_desktop.png);
+   }
+   
+   .marble {
+      background-image: url(img/marble_desktop.png);
+   }
+   
+   .cloth {
+      background-image: url(img/cloth_desktop.png);
+   }  
 
    .carousel.pointer-event {
       height: 573px;
