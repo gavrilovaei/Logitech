@@ -333,7 +333,7 @@ background-image: url(img/glass.png);
 .flow {
    padding-top: 70px;
    background-color: #EDEDED;
-   background-image: url(img/bg\ flow-mob.png);
+   background-image: url(img/bg-flow-mob.png);
    background-repeat: no-repeat;
    background-position: bottom;
    padding-bottom: 202px;
@@ -479,6 +479,7 @@ background-image: url(img/glass.png);
 
    .flow {
       padding-bottom: calc(50% + 20px);
+      background-image: url(img/bg-flow-tablet.png);
    }
 
    .flow__text {
@@ -691,8 +692,7 @@ background-image: url(img/glass.png);
    }
 
    .flow {
-      padding-bottom: 495px;
-      background-image: url(img/bg\ flow-tablet.png)
+      padding-bottom: 495px;     
    }
 
    .flow__heading_tablet {
@@ -838,7 +838,7 @@ background-image: url(img/glass.png);
    }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1136px) {
    .center {
       padding-left: calc(50% - 580px);
       padding-right: calc(50% - 580px);
@@ -1075,6 +1075,7 @@ background-image: url(img/glass.png);
 
    .flow {
       padding-bottom: 661px;
+      background-image: url(img/bg-flow-tablet_hor.png);
    }
 
    .flow__p {
@@ -1292,6 +1293,7 @@ background-image: url(img/glass.png);
    .flow {
       padding-top: 99px;
       padding-bottom: 875px;
+      background-image: url(img/bg-flow-desktop.png);
    }
 
    .flow__ol {
