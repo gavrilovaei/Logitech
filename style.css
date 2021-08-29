@@ -650,7 +650,7 @@ background-image: url(img/glass.png);
    }
 
    .carousel-inner {
-      width: 894px;
+      /* width: 894px; */
       margin: 0 auto;
    }
 
