@@ -382,14 +382,51 @@ background-image: url(img/glass.png);
    margin-left: 23%;
 }
 
-.settings .w-100 {
+.settings .carousel-inner {
    height: 405px;
-   width: auto !important;
-   margin: 0 auto;
+   width: 100%;  
 }
 
+.settings .carousel-item {
+   height: 405px;
+   margin: 0 auto;   
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center cener;
+}
+
+.slide-1 {
+   background-image: url(img/slide-1.png);
+}
+
+.slide-2 {
+   background-image: url(img/slide-2.png);
+}
+
+.slide-3 {
+   background-image: url(img/slide-3.png);
+}
+
+.slide-4 {
+   background-image: url(img/slide-4.png);
+}
+
+.slide-5 {
+   background-image: url(img/slide-5.png);
+}
+
+.slide-6 {
+   background-image: url(img/slide-6.png);
+}
+
+/* .settings .w-100 {
+   height: calc(100vw + 29px);
+   width: auto !important;
+   margin: 0 auto;
+} */
+
 .settings__img-desktop {
-   display: none;
+   height: 0;
 }
 
 .settings__content {
@@ -594,7 +631,7 @@ background-image: url(img/glass.png);
 
    .info__content {
       padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 45px;
    }
 
    .info__item {
@@ -634,9 +671,9 @@ background-image: url(img/glass.png);
       padding: 0px;
    }
 
-   .info .w-100 {
+   /* .info .w-100 {
       height: 573px;
-   }
+   } */
 
 
    .carousel-control-next,
@@ -665,7 +702,7 @@ background-image: url(img/glass.png);
    }
 
    .flow {
-      padding-bottom: 497px;
+      padding-bottom: 495px;
       background-image: url(img/bg\ flow-tablet.png)
    }
 
@@ -753,9 +790,22 @@ background-image: url(img/glass.png);
       width: 300px;
    }
 
-   .settings .w-100 {
+   .settings .carousel-inner {
       height: 610px;
+      /* width: 100%;   */
    }
+   
+   .settings .carousel-item {
+      height: 610px;
+      /* margin: 0 auto;   
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center cener; */
+   }
+
+   /* .settings .w-100 {
+      height: 610px;
+   } */
 
    .settings__content {
       padding-top: 38px;
@@ -1033,6 +1083,10 @@ background-image: url(img/glass.png);
       padding-top: 70px;
    }
 
+   .info__content {     
+      padding-bottom: 50px;
+  }
+
    .carousel-indicators {
       bottom: -144px;
       left: 273px;
@@ -1099,9 +1153,14 @@ background-image: url(img/glass.png);
 
 
    .settings__img-desktop {
-      display: block;
+      /* display: block; */
+      height: 698px;
       margin-top: 54px;
       margin-left: -6px;
+      background-image: url(img/settings__img-desktop.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
    }
 
    .settings__content {
@@ -1136,7 +1195,10 @@ background-image: url(img/glass.png);
 
    .mouse__img_1 {
       order: -1;
-      background-position: left;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(img/image\ 1_desktop.png);
    }
 
    .mouse__text_1 {
@@ -1169,7 +1231,7 @@ background-image: url(img/glass.png);
    .mouse__text-p_2 {
       text-align: right;
       margin-right: 0;
-   }
+   } 
 
 }
 
@@ -1300,6 +1362,6 @@ background-image: url(img/glass.png);
 
    .mouse__img {
       flex-basis: 654px;
-   }
+   } 
 
 }
